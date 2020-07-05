@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Attendance",
+    "slug": "attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "attendance",
+    "privacy": "unlisted",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.undigitals.attendance",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Attendance to access your current location to keep you updated about the distance between you and your office location",
+        "NSLocationWhenInUseUsageDescription": "Allow Attendance to access your current location to keep you updated about the distance between you and your office location",
+        "NSLocationUsageDescription": "Allow Attendance to access your current location to keep you updated about the distance between you and your office location"
+      }
+    },
+    "android": {
+      "package": "com.undigitals.attendance",
+      "versionCode": 1,
+      "permissions": ["LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
