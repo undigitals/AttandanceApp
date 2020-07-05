@@ -1,3 +1,14 @@
+## Run the project on web:
+- `expo start:web`
+- or `expo start --web`
+- or `yarn web`
+
+## Run the project on mobile:
+- `expo start --android`
+- `yarn android`
+- `expo start --ios`
+- `yarn ios`
+
 ## Added features:
 
 - one codebase for web and mobile platformss
