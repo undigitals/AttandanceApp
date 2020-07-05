@@ -5,9 +5,9 @@
 
 ## Run the project on mobile:
 - `expo start --android`
-- `yarn android`
+- or `yarn android`
 - `expo start --ios`
-- `yarn ios`
+- or `yarn ios`
 
 ## Added features:
 
